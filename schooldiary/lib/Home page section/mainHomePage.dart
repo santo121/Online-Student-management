@@ -109,6 +109,9 @@ class _HomePageState extends State<HomePage> {
                         buildContainer(
                             title: "Roll number",
                             // value: "30",
+                            ontap: (){
+                              Navigator.pushNamed(context, '/rollNumber');
+                            },
                             valueColor: Colors.green),
                         SizedBox(
                           width: MediaQuery.of(context).size.width * .05,
